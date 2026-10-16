@@ -1,0 +1,20 @@
+{
+	"name": "bits-ui-shadow-focus-repro",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"test": "vitest run"
+	},
+	"dependencies": {
+		"bits-ui": "2.19.5",
+		"svelte": "5.57.0"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^7.2.0",
+		"@testing-library/svelte": "^5.4.2",
+		"jsdom": "^29.1.1",
+		"vite": "^8.2.0",
+		"vitest": "^4.1.11"
+	}
+}
